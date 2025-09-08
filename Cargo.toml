@@ -1,0 +1,8 @@
+[package]
+name = "rs_ex"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.50.0" } 
+vcd2df = "0.1.2"
