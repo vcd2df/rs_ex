@@ -2,7 +2,7 @@ use polars::prelude::*;
 
 use std::collections::BTreeMap;
 
-const PATH: &str = "../../vcds";
+const PATH: &str = "hasp25/graph/vcds";
 
 fn main() {
     let paths = std::fs::read_dir(PATH).unwrap();
